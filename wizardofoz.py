@@ -83,7 +83,7 @@ while True:
 	choice = wait_key()
 	keyItem = keysIndex.index(choice) 
 	#need an if statement here to check if the keypress is in the range
-	os.system("say -v Samantha \"" + lines[keyItem][1] + "\"")
+	os.system("spd-say -l pt -t female3 -r -50 \"" + lines[keyItem][1] + "\"")
 #	if (choice <= lineTotal)        
 #		os.system("say " + lines[choice])
  #       break
